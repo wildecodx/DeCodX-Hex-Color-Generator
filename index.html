@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/44d3cca51b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h3>DeCodX Hex Color Generator</h3>
+      <p>Hit the spacebar on your keyboard to generate colors.</p>
+    </header>
+    <div class="card-wrapper">
+      <div class="card">
+        <button class="lock-btn" data-status="unlock">
+          <i class="fa-solid fa-lock"></i>
+          <i class="fa-solid fa-unlock"></i>
+        </button>
+        <p class="color-code"></p>
+      </div>
+      <div class="card">
+        <button class="lock-btn" data-status="unlock">
+          <i class="fa-solid fa-lock"></i>
+          <i class="fa-solid fa-unlock"></i>
+        </button>
+        <p class="color-code"></p>
+      </div>
+      <div class="card">
+        <button class="lock-btn" data-status="unlock">
+          <i class="fa-solid fa-lock"></i>
+          <i class="fa-solid fa-unlock"></i>
+        </button>
+        <p class="color-code"></p>
+      </div>
+      <div class="card">
+        <button class="lock-btn" data-status="unlock">
+          <i class="fa-solid fa-lock"></i>
+          <i class="fa-solid fa-unlock"></i>
+        </button>
+        <p class="color-code"></p>
+      </div>
+      <div class="card">
+        <button class="lock-btn" data-status="unlock">
+          <i class="fa-solid fa-lock"></i>
+          <i class="fa-solid fa-unlock"></i>
+        </button>
+        <p class="color-code"></p>
+      </div>
+      <button class="generate-mobile">Generate Color</button>
+    </div>
+
+    <div class="help-box show">
+      <div class="help-info">
+        <h3>Usecase Area</h3>
+        <button class="btn close-btn"><i class="fa-solid fa-xmark"></i></button>
+        <button class="btn help-btn">
+          <i class="fa-solid fa-question"></i>
+        </button>
+      </div>
+      <ul>
+        <li>Click spacebar to randomize 5 different colors.</li>
+        <li>
+          If you want to save just click the color code that starts with # and
+          you got copies instantly.
+        </li>
+        <li>
+          If you have chosen color you can click the lock button and for the
+          next generate color the color you locked remains.
+        </li>
+        <li>
+          This project is for educational purposes and inspire from coolors.co.
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
